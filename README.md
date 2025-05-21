@@ -30,7 +30,7 @@ Este projeto serve como um *ambiente de aprendizado* onde pude explorar e aplica
 
 Ao longo do desenvolvimento deste sistema ERP em console, reforcei minha compreensão sobre:
 
-  * **Fundamentos de C\#:** Uso eficaz de variáveis, tipos de dados (incluindo `decimal` para precisão monetária e o tratamento de nulabilidade `string?` com `Console.ReadLine()`), operadores e estruturas de controle de fluxo.
+  * **Fundamentos de C\#:** Uso eficaz de variáveis, tipos de dados.
   * **Design Orientado a Objetos:** Como modelar problemas do mundo real em classes e como essas classes interagem entre si para formar um sistema funcional.
   * **Entrada e Saída (I/O) no Console:** Manipulação de entradas do usuário e formatação de saídas para uma interação clara.
   * **Modularização do Código:** Organização do código em métodos e classes para promover a reutilização e a manutenibilidade.
