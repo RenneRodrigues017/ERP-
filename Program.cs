@@ -1,5 +1,20 @@
-﻿using SistemaLojaDeRoupa;
+﻿
 
-Menu menu = new Menu();
+using Microsoft.EntityFrameworkCore;
+using Exercicios.SistemaDeRoupas.Models; 
+using Exercicios.SistemaDeRoupas.DataBase;
+class Program {
+    static void Main(string[] args)
+    {
 
-menu.ExibirMenu();
+        using var context = new AppDbContext();
+        
+        context.Database.Migrate();
+        
+        Console.WriteLine("Banco de dados verificado/atualizado com sucesso!");
+
+        Menu menu = new();
+        menu.ExibirMenu();
+
+    }
+}

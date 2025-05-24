@@ -1,0 +1,6 @@
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.AssemblyInfoInputs.cache
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.AssemblyInfo.cs
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.sourcelink.json
+C:\Users\renne\OneDrive\Desktop\Renne\SistemaLojaDeRoupas\SistemaDeRoupas\obj\Debug\net9.0\Exercicios.csproj.AssemblyReference.cache
