@@ -1,11 +1,14 @@
-using System.Runtime.CompilerServices;
 
-namespace SistemaLojaDeRoupa;
 
-class Produto
+using System.ComponentModel.DataAnnotations;
+
+namespace Exercicios.Models;
+
+public class Produto
 {
+    [Key] public int Id { get; set; }
     
-    private string _nome;
+    private string? _nome;
     public string Nome               //Tratando o valor da variavel Nome
     {
         get => _nome;
