@@ -1,23 +1,23 @@
-using Exercicios.Data;
 
 namespace Exercicios.Services;
 
-class Menu : Estoque
+class MenuEstoque : Estoque
 {
     public void ExibirMenu()
     {
         while (true)
         {
-            Console.WriteLine("Menu\nLoja RF Marcas");
-            Console.WriteLine("1-Adiconar Produto");
-            Console.WriteLine("2-Dar Entrada");
-            Console.WriteLine("3-Registrar Venda");
-            Console.WriteLine("4-Consultar Produto");
+            Console.Clear();
+            Console.WriteLine("--Menu--\n--Loja RF Marcas--");
+            Console.WriteLine("1-Adiconar produto");
+            Console.WriteLine("2-Entrada");
+            Console.WriteLine("3-Registrar venda");
+            Console.WriteLine("4-Consultar produto");
             Console.WriteLine("5-Listar produtos");
             Console.WriteLine("0-Para sair");
             if (!int.TryParse(Console.ReadLine(), out int opcao))
             {
-                Console.WriteLine("Entrada incorreta."); return;
+                Console.WriteLine("Entrada incorreta. Tente novamente"); return;
             }
 
             if (opcao == 0) break;
@@ -30,19 +30,31 @@ class Menu : Estoque
                     switch (opcao)
                     {
                         case 1:
-                            Console.Clear();
                             AdicionarProduto(Codigo);
                             break;
                         case 2:
-                            Console.Clear();
-                            DarEntrada(Codigo);
-                            break;
+                            while (true)
+                            {
+                                Console.Write("Quantidade da entrada (ou 0 para sair): ");
+                                if (int.TryParse(Console.ReadLine(), out int qtdEntrada))
+                                {
+                                    if (qtdEntrada == 0)
+                                    {
+                                        break; // sair do loop
+                                    }
+                                    // Entrada válida e diferente de zero
+                                    DarEntrada(Codigo, qtdEntrada);
+                                    break; // após registrar a entrada, sai do loop
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Valor inválido. Tente novamente.");
+                                }
+                            }break;
                         case 4:
-                            Console.Clear();
                             ConsultarProduto(Codigo);
                             break;
                         case 3:
-                            Console.Clear();
                             Console.Write("Informe a quantidade vendida: ");
                             if (int.TryParse(Console.ReadLine(), out int QtdVendida))
                             {
@@ -51,14 +63,12 @@ class Menu : Estoque
                             break;
                     }
                 }
-
             }
             else if (opcao == 5) { ListarProdutos(); }
             else
             {
                 Console.WriteLine("Opção não encontrada. Digite novamente."); return;
             }
-        
         }
     }
 }
