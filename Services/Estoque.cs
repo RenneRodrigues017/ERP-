@@ -4,7 +4,7 @@ namespace Exercicios.Services
 {
     class Estoque
     {
-                public static void AdicionarProduto(int Codigo) //Metodo de Adicionar Produto
+       public static void AdicionarProduto(int Codigo) //Metodo de Adicionar Produto
         {
             using var context = new AppDbContext();
             Produto produtoNew = new();
