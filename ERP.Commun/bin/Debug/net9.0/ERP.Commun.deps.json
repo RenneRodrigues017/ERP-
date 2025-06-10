@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ERP.Commun/1.0.0": {
+        "runtime": {
+          "ERP.Commun.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ERP.Commun/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

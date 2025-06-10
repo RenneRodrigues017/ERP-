@@ -1,0 +1,12 @@
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\bin\Debug\net9.0\ERP.Commun.deps.json
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\bin\Debug\net9.0\ERP.Commun.dll
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\bin\Debug\net9.0\ERP.Commun.pdb
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.AssemblyInfoInputs.cache
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.AssemblyInfo.cs
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.csproj.CoreCompileInputs.cache
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.sourcelink.json
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.dll
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\refint\ERP.Commun.dll
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ERP.Commun.pdb
+C:\Users\renne\OneDrive\Desktop\Renne\ERP-\ERP.Commun\obj\Debug\net9.0\ref\ERP.Commun.dll

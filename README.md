@@ -66,7 +66,7 @@ Sinta-se à vontade para explorar o código, sugerir melhorias ou reportar quais
 Conecte-se comigo:
 
   * **GitHub:** [RenneRodrigues017](https://www.google.com/search?q=https://github.com/RenneRodrigues017)
-  * **LinkedIn (Opcional, se tiver):** [SeuPerfilNoLinkedIn]
+  * **LinkedIn:** [RenneFrancisco](https://www.linkedin.com/in/renne-francisco-5b52031b7/)
 
 
 
